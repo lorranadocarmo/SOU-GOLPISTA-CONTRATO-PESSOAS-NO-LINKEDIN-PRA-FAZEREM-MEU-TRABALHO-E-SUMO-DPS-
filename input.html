@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Digite aqui*: </label><input type="text" /> <br>
+    <br>
+    <label>Cargo: </label>  <br>
+    <select name="role">
+        <option value="">Selecione o cargo</option>
+        <option value="administrativo">Administrativo</option>
+        <option value="gerente">Gerente</option>
+        <option value="presidente">Presidente</option>
+    </select>
+    <br>
+    <label>Assunto:</label><input type="text" name="subject"> <br>
+    <br>
+    <label >Mensagem: </label> <br>
+    <br>
+    <textarea rows="10" cols="50" name="messege"></textarea><br>
+    <br>
+    <button type="submit">Enviar</button><br>
+    <br>
+    <label>Numeros*: </label><input type="number" min="0" /> <br>
+    <br>
+    <label>E-mail*: </label><input type="email"  /><br>
+    <br>
+    <label>Url*: </label><input type="url"  /><br>
+    <br>
+    <label>Range*: </label><input type="range" min="0" max="100" valure="90"/><br>
+    <br>
+    <label>Color: </label><input type="color" /><br>
+    <br>
+    <label>Data*: </label><input type="date" /><br>
+    <br>
+    <label>Arquivo: </label><input type="file" multiple/><br>
+    <br>
+    <label>Buscar: </label><input type="search" multiple/><br>
+    <br>
+    <label>Button: </label><input type="submit" value="Enviar" /><br>
+    <br>
+    <h2>Você selecionou: Pizza de Calabreza</h2>
+    <form method="post"
+        <p>Quais Opcionais você deseja?</p>
+        <input type="checkbox" name="opcional[]" valure="queijo"> +Queijo <br>
+        <input type="checkbox" name="opcional[]" valure="calabresa"> +Calabresa <br>
+        <input type="checkbox" name="opcional[]" valure="cebola"> +Cebola <br>
+        <input type="checkbox" name="opcional[]" valure="azeitona"> +Azeitona <br>
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" valure="sim"> Sim <br>
+        <input type="radio" name="borda" valure="nao"> Não <br>
+        <p>Bebidas: </p>
+        <input type="radio" name="bebida" valure="suco"> Suco <br>
+        <input type="radio" name="bebida" valure="refrigerante"> Refrigerante <br>
+        <input type="radio" name="bebida" valure="agua"> Água <br>
+        <input type="radio" name="bebida" valure="nenhuma"> Nenhuma <br>
+
+        <button type="button" onclick="alert('Pedido envido')">Enviar pedido</button> <br>
+        <br>
+        <button type="reset"> Limpar</button>
+</body>
+</html>
